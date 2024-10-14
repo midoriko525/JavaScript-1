@@ -1,0 +1,25 @@
+h3 {
+  text-decoration: underline;
+}
+#display {
+  font-size: 30px;
+  font-weight: bold;
+}
+button {
+  display: inline;
+  margin: auto;
+  width: 120px;
+  height: 55px;
+  font-weight: normal;
+  background-color: rgb(9, 165, 165);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(40, 233, 233, 0.796);
+}
+
+button:disabled {
+  cursor: default;
+  background-color: rgba(40, 233, 233, 0.367);
+}
